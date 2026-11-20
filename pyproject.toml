@@ -1,0 +1,9 @@
+[project]
+name = "cto-orchestrator"
+version = "0.1.0"
+description = "CTO-оркестратор MVP: аттестация и тестирование (B2B/B2C) с командой субагентов"
+requires-python = ">=3.12"
+dependencies = ["mistralai-agents>=1.1.2,<1.2"]
+
+[tool.mistralai.agents]
+entrypoint = "main:agent"
